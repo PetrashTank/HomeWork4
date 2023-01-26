@@ -19,11 +19,12 @@ return Array;
 }
 int [] a = CreateArray();
 
-void PrintArray (int[] array)
+void PrintArray (int[] array1)
 {
-for (int i = 0; i < array.Length; i++)
+for (int i = 0; i < 1; i++)
 {
-Console.Write($" {array[i]} , ");
+Console.WriteLine($"Массив  {array1[0]} ,{array1[1]}, {array1[2]}, {array1[3]}, {array1[4]} -> [{array1[0]} ,{array1[1]}, {array1[2]}, {array1[3]}, {array1[4]}]");
+Console.WriteLine($"Массив  {array1[5]} ,{array1[6]}, {array1[7]} -> [{array1[5]} ,{array1[6]}, {array1[7]}]");
 }
 }
 PrintArray(a);
